@@ -1,0 +1,47 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.add-task-container {
+  margin-bottom: 20px;
+}
+
+.add-task-container input[type="text"] {
+  width: calc(100% - 70px);
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.add-task-container button {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.task {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.task input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.task input[type="text"] {
+  flex: 1;
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.task button {
+  padding: 5px 10px;
+  font-size: 16px;
+}
